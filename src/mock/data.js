@@ -34,7 +34,7 @@ export const projectsData = [
     info2: '',
     url: '',
     slider: false,
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -44,7 +44,7 @@ export const projectsData = [
     info2: '',
     url: '',
     slider: false,
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -54,7 +54,7 @@ export const projectsData = [
     info2: '',
     url: '',
     slider: true,
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -64,7 +64,7 @@ export const projectsData = [
     info2: '',
     url: '',
     slider: false,
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
