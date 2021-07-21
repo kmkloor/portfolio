@@ -18,9 +18,9 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'KatePhoto.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne: 'I am a Software Development Manager that is responsible for 12 ecommerce sites. I mainly work in Shopify, React, Rails, SQL and AWS. I started building websites when I was ten, spent a few years as a librarian, and then got my MIT from Virginia Tech. Since then I have worked my way from junior developer to development manager.',
+  paragraphTwo: 'I still consider myself both a developer and a manager because I love coding and problem solving as much as I enjoy growing a team and working on the big picture. I think being passionate about all these aspects is necessary to build great things! ',
+  paragraphThree: 'Outside of work I enjoy hiking, photography, oil painting, wood working, and my pets - who may join video meetings uninvited. I apologize in advance. ',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -28,10 +28,22 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: [ 'eastpak.png', 'pure.png', 'trophy.png', 'spray.png'],
+    title: 'Manage',
+    info: 'I develop and manage 12 direct to consumer Shopify sites as well as our company\'s headless Contentful & React homepage.' ,
+    info2: 'For the ecommerce sites, this includes integration with our Rails inventory and shipment system and custom React and Rails apps as needed.',
+    info3: 'I also manage several talented overseas developers and an awesome QA team.',
+    url: '',
+    slider: true,
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'abtest.png',
     title: 'Optimize',
-    info: '',
-    info2: '',
+    info: 'Problem: We wanted to make changes but we weren\'t sure how they would affect customer behavior',
+    info2: 'Solution: I integrated Google Optimize with the site and with Google Analytics. We performed many A/B tests and increased conversion rates.',
+    info3: 'Result: We used the data to maximize sales. This also had the unexpected side effect of solving design disagreements ("Let\'s just A/B test it!")',
     url: '',
     slider: false,
     repo: '', // if no repo, the button will not show up
@@ -40,28 +52,21 @@ export const projectsData = [
     id: nanoid(),
     img: 'chart.png',
     title: 'Scale',
-    info: '',
-    info2: '',
+    info: 'Problem: We outgrew static curation for subscription boxes. We had to change box configuration multiple times a month and then remember not to repeat items. We had leftover inventory we couldn\'t use because we didn\'t know which customers had received it before.',
+    info2: 'Solution: I developed dynamic curation. Using customer preferences, past orders, and inventory, we chose items that were available and hadn\'t been recieved before.',
+    info3: 'Result: We were able to support continued growth, reduce waste, and better optimize purchasing.',
     url: '',
     slider: false,
     repo: '', // if no repo, the button will not show up
   },
-  {
-    id: nanoid(),
-    img: [ 'eastpak.png', 'pure.png', 'trophy.png', 'spray.png'],
-    title: 'Manage',
-    info: '',
-    info2: '',
-    url: '',
-    slider: true,
-    repo: '', // if no repo, the button will not show up
-  },
+
   {
     id: nanoid(),
     img: 'lambda.png',
     title: 'Solve',
-    info: '',
-    info2: '',
+    info: 'Problem: We frequently run into problems outside the scope of Shopify\'s built in solutions.',
+    info2: 'Solution: This is my favorite part of my job. I research and identify technologies or methods that will solve the problem at the appropriate scale. Sometimes it is a quick Serverless AWS app, sometimes it is a full Rails app.',
+    info3: 'Result: I am constantly learning new techniques to share with my team and vice-versa.',
     url: '',
     slider: false,
     repo: '', // if no repo, the button will not show up
@@ -72,7 +77,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'kmkloor@gmail.com',
 };
 
 // FOOTER DATA
