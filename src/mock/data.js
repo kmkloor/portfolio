@@ -53,7 +53,7 @@ export const projectsData = [
     img: 'chart.png',
     title: 'Scale',
     info: 'Problem: We outgrew static curation for subscription boxes. We had to change box configuration multiple times a month and then remember not to repeat items. We had leftover inventory we couldn\'t use because we didn\'t know which customers had received it before.',
-    info2: 'Solution: I developed dynamic curation. Using customer preferences, past orders, and inventory, we chose items that were available and hadn\'t been recieved before.',
+    info2: 'Solution: I developed dynamic curation. Using customer preferences, past orders, and inventory, we chose items that were available and hadn\'t been received before.',
     info3: 'Result: We were able to support continued growth, reduce waste, and better optimize purchasing.',
     url: '',
     slider: false,
