@@ -41,7 +41,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'abtest.png',
     title: 'Optimize',
-    info: 'Problem: We wanted to make changes but we weren\'t sure how they would affect customer behavior',
+    info: 'Problem: We wanted to make changes but we weren\'t sure how they would affect customer behavior.',
     info2: 'Solution: I integrated Google Optimize with the site and with Google Analytics. We performed many A/B tests and increased conversion rates.',
     info3: 'Result: We used the data to maximize sales. This also had the unexpected side effect of solving design disagreements ("Let\'s just A/B test it!")',
     url: '',
