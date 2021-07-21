@@ -18,7 +18,7 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'KatePhoto.jpg',
-  paragraphOne: 'I am a Software Development Manager that is responsible for 12 ecommerce sites. I mainly work in Shopify, React, Rails, SQL and AWS. I started building websites when I was ten, spent a few years as a librarian, and then got my MIT from Virginia Tech. Since then I have worked my way from junior developer to development manager.',
+  paragraphOne: 'I am a Software Development Manager responsible for 12 ecommerce sites. I mainly work in Shopify, React, Rails, SQL and AWS. I started building websites when I was ten, spent a few years as a librarian, and then got my MIT from Virginia Tech. Since then I have worked my way from junior developer to development manager.',
   paragraphTwo: 'I still consider myself both a developer and a manager because I love coding and problem solving as much as I enjoy growing a team and working on the big picture. I think being passionate about all these aspects is necessary to build great things! ',
   paragraphThree: 'Outside of work I enjoy hiking, photography, oil painting, wood working, and my pets - who may join video meetings uninvited. I apologize in advance. ',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
